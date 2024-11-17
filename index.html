@@ -38,11 +38,12 @@ color: black;
 border: 1px solid #ddd;
 padding: 8px;
 }
-
 a:focus-visible {
-  outline: 2px solid #2b17c6d4;
-  background-color: #f0f0f0;
+  outline: 2px solid #2b17c6d4;  /* Outline with a solid color */
+  background-color: #f0f0f0;      /* Background color on focus */
+  border: 2px solid #ff6347;      /* Border color on focus */
 }
+
 
 
 
@@ -54,16 +55,8 @@ a:focus-visible {
   background-color: #545309;
   margin: 15px;
 }
-.wb-inv {
-    visibility: visible !important; /* Görünür yap */
-}
-
-#myFooter{
-  outline: 2px solid #0d0d43d4;
 
 
-  
-}
 
 
 </style>
@@ -355,7 +348,7 @@ a:focus-visible {
 <nav>
 
 <h3>About us</h3>
-<ul id="myFooter" class="list-col-xs-1 list-col-sm-2 list-col-md-3" >
+<ul  class="list-col-xs-1 list-col-sm-2 list-col-md-3" >
 <li ><a href="#">All contacts</a></li>
 <li ><a href="#">Our team</a></li>
 <li ><a href="#">Read about accessibility</a></li></ul>
